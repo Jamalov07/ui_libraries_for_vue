@@ -41,16 +41,28 @@ const vuetify = createVuetify({
 });
 //=======================VuETIFY================
 
-import ElementPlus from 'element-plus'
-import 'element-plus/dist/index.css'
-import Equal from 'equal-vue'
-import Config from 'equal-vue/dist/theme/full' // or light / dark theme 
+import ElementPlus from "element-plus";
+import "element-plus/dist/index.css";
+import Equal from "equal-vue";
+import Config from "equal-vue/dist/theme/full"; // or light / dark theme
 
+// import { DatePicker } from 'ant-design-vue';
+import "ant-design-vue/dist/antd.css";
 
+import PrimeVue from "primevue/config";
+
+//theme
+import "primevue/resources/themes/lara-light-indigo/theme.css";
+
+//core
+import "primevue/resources/primevue.min.css";
 
 const app = createApp(App);
+
 app.use(router);
-app.use(Equal, Config)
+
+app.use(Equal, Config);
+app.use(PrimeVue);
 
 app.use(ElementPlus);
 app.use(vuetify);

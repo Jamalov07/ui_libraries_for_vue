@@ -12,6 +12,8 @@
           <li><router-link to="/elementplus">Element Plus</router-link></li>
           <li><router-link to="/keenui">Keen Ui</router-link></li>
           <li><router-link to="/equal">Equal</router-link></li>
+          <li><router-link to="/antdesignvue">Ant Design Vue</router-link></li>
+          <li><router-link to="/primevue">Prime Vue</router-link></li>
         </ul>
       </div>
     </div>

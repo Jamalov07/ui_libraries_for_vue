@@ -7,7 +7,8 @@ import Home from "../components/Home.vue";
 import ElementPlus from "../components/ElementPlus.vue";
 import KeenUi from "../components/KeenUi.vue";
 import Equal from "../components/Equal.vue";
-
+import AntDesignVue from "../components/AntDesignVue.vue";
+import PrimeVue from "../components/PrimeVue.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -42,6 +43,14 @@ const router = createRouter({
     {
       path: "/equal",
       component: Equal,
+    },
+    {
+      path: "/antdesignvue",
+      component: AntDesignVue,
+    },
+    {
+      path: "/primevue",
+      component: PrimeVue,
     },
     // {
     //   path: "/:pathMatch(.*)*",
