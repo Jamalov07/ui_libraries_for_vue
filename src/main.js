@@ -41,11 +41,20 @@ const vuetify = createVuetify({
 });
 //=======================VuETIFY================
 
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
+import Equal from 'equal-vue'
+import Config from 'equal-vue/dist/theme/full' // or light / dark theme 
+
+
+
 const app = createApp(App);
 app.use(router);
+app.use(Equal, Config)
+
+app.use(ElementPlus);
 app.use(vuetify);
 app.use(Quasar, {
   plugins: {},
 });
-
 app.mount("#app");

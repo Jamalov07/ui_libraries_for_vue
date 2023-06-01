@@ -9,6 +9,9 @@
           <li><router-link to="/quasar"> Quasar </router-link></li>
           <li><router-link to="/vuetify"> Vuetify </router-link></li>
           <li><router-link to="/bootstrapvue"> Bootstrap Vue</router-link></li>
+          <li><router-link to="/elementplus">Element Plus</router-link></li>
+          <li><router-link to="/keenui">Keen Ui</router-link></li>
+          <li><router-link to="/equal">Equal</router-link></li>
         </ul>
       </div>
     </div>
