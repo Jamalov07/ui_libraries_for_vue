@@ -9,6 +9,8 @@ import KeenUi from "../components/KeenUi.vue";
 import Equal from "../components/Equal.vue";
 import AntDesignVue from "../components/AntDesignVue.vue";
 import PrimeVue from "../components/PrimeVue.vue";
+import FishUi from "../components/FishUi.vue";
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -51,6 +53,10 @@ const router = createRouter({
     {
       path: "/primevue",
       component: PrimeVue,
+    },
+    {
+      path: "/fishui",
+      component: FishUi,
     },
     // {
     //   path: "/:pathMatch(.*)*",
