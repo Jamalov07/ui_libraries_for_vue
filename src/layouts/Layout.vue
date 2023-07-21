@@ -15,6 +15,7 @@
           <li><router-link class="border p-1" to="/antdesignvue">Ant Design Vue</router-link></li>
           <li><router-link class="border p-1" to="/primevue">Prime Vue</router-link></li>
           <li><router-link class="border p-1" to="/fishui">Fish ui</router-link></li>
+          <li><router-link class="border p-1" to="/naiveui">Naive Ui</router-link></li>
         </ul>
       </div>
     </div>

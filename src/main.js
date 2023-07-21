@@ -4,6 +4,8 @@ import "./style.css";
 import App from "./App.vue";
 import router from "./router";
 
+import naiveUi from "naive-ui";
+
 //=======================QUASAR================
 import { Quasar } from "quasar";
 // Import icon libraries
@@ -61,6 +63,7 @@ const app = createApp(App);
 
 app.use(router);
 
+app.use(naiveUi);
 app.use(Equal, Config);
 app.use(PrimeVue);
 

@@ -10,6 +10,7 @@ import Equal from "../components/Equal.vue";
 import AntDesignVue from "../components/AntDesignVue.vue";
 import PrimeVue from "../components/PrimeVue.vue";
 import FishUi from "../components/FishUi.vue";
+import NaiveUi from "../components/NaiveUi.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -57,6 +58,10 @@ const router = createRouter({
     {
       path: "/fishui",
       component: FishUi,
+    },
+    {
+      path: "/naiveui",
+      component: NaiveUi,
     },
     // {
     //   path: "/:pathMatch(.*)*",
